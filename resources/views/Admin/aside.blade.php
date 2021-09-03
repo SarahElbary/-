@@ -24,42 +24,6 @@
 
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" class="menu-link menu-toggle">
-                        <i class="menu-icon flaticon2-telegram-logo"></i>
-                        <span class="menu-text">{{__('lang.Roles')}}</span>
-                        <i class="menu-arrow"></i>
-                    </a>
-                    <div class="menu-submenu">
-                        <i class="menu-arrow"></i>
-                        <ul class="menu-subnav">
-                            <li class="menu-item menu-item-parent" aria-haspopup="true">
-                                <span class="menu-link">
-                                    <span class="menu-text">Roles</span>
-                                </span>
-                            </li>
-                            <li class="menu-item" aria-haspopup="true">
-                                <a href="{{asset('roles')}}" class="menu-link">
-                                    <i class="menu-bullet menu-bullet-line">
-                                        <span></span>
-                                    </i>
-                                    <span class="menu-text">{{__('lang.Show')}}</span>
-                                </a>
-                            </li>
-                            <li class="menu-item" aria-haspopup="true">
-
-                                <a href="{{asset('roles/create')}}" class="menu-link">
-                                    <i class="menu-bullet menu-bullet-line">
-                                        <span></span>
-                                    </i>
-                                    <span class="menu-text">{{__('lang.Add')}}</span>
-                                </a>
-
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-
-                <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" class="menu-link menu-toggle">
                         <i class="menu-icon flaticon2-laptop"></i>
                         <span class="menu-text">{{__('lang.Pages')}}</span>
                         <i class="menu-arrow"></i>
@@ -196,20 +160,6 @@
                     <a href="{{asset('slider')}}" class="menu-link">
                         <i class="menu-icon flaticon2-console"></i>
                         <span class="menu-text">{{__('lang.Sliders')}}</span>
-                    </a>
-                </li>
-
-                <li class="menu-item" aria-haspopup="true">
-                    <a href="{{asset('setting/1/edit')}}" class="menu-link">
-                        <i class="menu-icon flaticon2-console"></i>
-                        <span class="menu-text">{{__('lang.setting')}}</span>
-                    </a>
-                </li>
-
-                <li class="menu-item" aria-haspopup="true">
-                    <a href="{{asset('users')}}" class="menu-link">
-                        <i class="menu-icon flaticon2-graph-1"></i>
-                        <span class="menu-text">{{__('lang.User')}}</span>
                     </a>
                 </li>
 

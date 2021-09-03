@@ -19,7 +19,7 @@
       'Activate'=> 'Activate',
       'Deactivate'=> 'Deactivate',
       'Delete'=>'Delete',
-      'Create_Article'=>'Create Article',
+      'Create_Article'=>'Create',
       'Id'=>'Id',
       'Name'=>'Name',
       'myCategory'=>'Category',

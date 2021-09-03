@@ -74,27 +74,27 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-md-3">
-                    <a href="" style="width: 250px;" data-url="{{ url('articles/activate') }}"
+                    <a href="" style="width: 180px;" data-url="{{ url('articles/activate') }}"
                         class="px-5 btn btn-info btn-lg activate"><i class="fas fa-check"></i>{{__('lang.Activate')}}
                     </a>
                 </div>
 
                 <div class="col-md-3">
-                    <a href="" style="width: 250px;margin-left:0px;margin-right:20px"
+                    <a href="" style="width: 186px;margin-left:0px;margin-right:20px"
                         data-url="{{ url('articles/deactive') }}" class="px-5 btn btn-primary btn-lg active-all"><i
                             class="fas fa-check"></i>{{__('lang.Deactivate')}}
                     </a>
                 </div>
 
                 <div class="col-md-3">
-                    <a href="" style="width: 250px;" data-url="{{ url('myproductsDeleteAll') }}"
+                    <a href="" style="width: 180px;" data-url="{{ url('myproductsDeleteAll') }}"
                         class="px-5 btn btn-lg btn-danger delete-all"><i class="fas fa-trash"></i>{{__('lang.Delete')}}
                     </a>
                 </div>
 
                 <div class="col-md-3">
                     <a href="{{ url('articles/create') }}" class="px-5 btn-lg btn"
-                        style="background:rgb(19, 143, 29);color:white;float: right; width:250px;"><i
+                        style="background:rgb(19, 143, 29);color:white;float: right; width:186px;"><i
                             class="far fa-plus-square" style="color: white;width:25px"></i>{{__('lang.Create_Article')}}
                     </a>
                 </div>

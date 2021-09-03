@@ -9,7 +9,7 @@
         </h2>
     </div>
     <div class="col-md-3">
-        <a style="background:rgb(108, 192, 115);color:white;float: right; width:250px;" class="btn btn-success"
+        <a style="background:rgb(108, 192, 115);color:white;float: right; width:188px;" class="btn btn-success"
             href="{{ asset('questions/create') }}"> {{__('lang.Add')}}</a>
     </div>
 
